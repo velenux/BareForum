@@ -1,0 +1,232 @@
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+body {
+	color: #333;
+	font-family: "Dejavu Sans", "Liberation Sans", "Free Sans", sans-serif;
+	font-size: 16px;
+	line-height: 1.45em;
+}
+
+p, li {
+	margin-top: 0.3em;
+}
+
+a {
+	color: #05394D;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Montaga", serif;
+	font-weight: normal;
+	line-height: 1.6em;
+}
+
+h1 {
+	color #353535;
+	font-size: 36px;
+	line-height: 1.6em;
+}
+
+h2 {
+	color #252525;
+	font-size: 20px;
+	line-height: 1.6em;
+}
+
+h3 {
+	color: #151515;
+	font-size: 18px;
+	line-height: 1.5em
+}
+
+h4, h5, h6 {
+	color: #050505;
+	font-size: 16px;
+	line-height: 1.45em;
+}
+
+
+#header {
+	font-family: "Arimo", sans-serif;
+	font-size: 14px;
+	margin-bottom: 10px;
+	text-align: right;
+}
+
+#header a {
+	text-decoration: underline;
+}
+
+#search {
+	margin-right: 10px;
+}
+
+#search, #search input {
+	display: inline;
+}
+
+#search input[type="text"] {
+	margin-top: 4px;
+	padding: 0.1em 1em 0.1em 0.2em;
+	vertical-align: bottom;
+}
+
+#search input[type="submit"] {
+	font-size: 13px;
+	padding: 0.1em 0.5em;
+}
+
+
+#logo {
+	margin-bottom: 15px;
+}
+
+
+#forum-list, #thread-list {
+	font-family: "Arimo", sans-serif;
+	margin-top: 5px;
+}
+
+#forum-list h2, #thread-list h2 {
+	font-family: "Asap", sans-serif;
+	margin: 0.12em 0em 0.25em 0em;
+}
+
+#forum-list ul {
+	border-bottom: 1px solid #656565;
+	list-style-type: none;
+	padding-bottom: 2em;
+}
+
+#forum-list ul li {
+	padding: 0.125em 0em 0.3em 1.3em;
+}
+
+#forum-list .unread {
+	background-color: #e5e5e5;
+}
+
+
+#thread-list ul {
+	border-bottom: 1px solid #656565;
+	list-style-type: none;
+	padding-bottom: 2em;
+}
+
+#thread-list ul li {
+	margin-top: 8px;
+	padding: 0.125em 1.5em 0.3em 1.3em;
+}
+
+#thread-list .unread {
+	background-color: #e5e5e5;
+}
+
+#thread-list p.thread-title {
+	font-size: 20px;
+	font-weight: 550;
+}
+
+#thread-list p.thread-metadata {
+	font-size: 11px;
+	font-weight: 300;
+	line-height: 1.2em;
+	margin-left: 1px;
+}
+
+#thread-list p.thread-teaser {
+	color: #555;
+	font-size: 14px;
+	font-weight: 250;
+	text-align: justify;
+	margin: 0.5em 0em 0em 0em;
+}
+
+div.op p.metadata, div.reply p.metadata {
+	background-color: #c5c5c5;
+	font-size: 12px;
+	line-height: 1.45em;
+	padding: 0.33em 1em 0.44em 0.66em;
+}
+
+div.op p, div.reply p {
+	line-height: 1.65em;
+	margin-top: 0.66em;
+}
+
+p.navigation {
+	text-align: right;
+	padding: .5em .5em .6em .5em;
+}
+
+p.navigation a {
+	background: #dde;
+	border: 1px solid #05394D;
+	border: 1px solid #99a;
+	line-height: 2em;
+	padding: 0.4em 1.5em 0.4em 1.5em;
+}
+
+p.navigation a:hover {
+	background: #dde;
+	border: 1px solid #05394D;
+}
+
+ul.quick-replies {
+	border: none !important;
+  font-size: 14px;
+	margin-top: 1em;
+}
+
+.quick-replies li {
+	color: #555;
+	line-height: 1.45em;
+	margin: 0.15em 0px 0px 0px !important;
+	padding: 0.15em 2em 0.15em 1em !important;
+}
+
+
+#footer {
+	font-size: 12px;
+	margin-top: 15px;
+	padding-bottom: 25px;
+	text-align: center;
+}
+
+
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+		
+	}
+
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+}
