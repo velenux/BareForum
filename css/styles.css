@@ -165,6 +165,7 @@ div.op p, div.reply p {
 }
 
 p.navigation {
+  font-size: 14px;
 	text-align: right;
 	padding: .5em .5em .6em .5em;
 }

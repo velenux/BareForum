@@ -60,6 +60,7 @@ sub lipsum {
 	while(length $ret < $n) {
 		$ret .= $WORDS[int(rand(@WORDS))] . ' ';
 	}
+  $ret =~ s/\s+$//;
 	return ucfirst $ret;
 }
 
